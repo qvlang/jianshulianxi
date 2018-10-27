@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "data": {
+    "topicList": [{
+    "id": 1,
+    "title": "手绘",
+    "imgUrl": "//upload.jianshu.io/collections/images/283250/%E6%BC%AB%E7%94%BB%E4%B8%93%E9%A2%98.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+  },{
+    "id": 2,
+    "title": "社会热点",
+    "imgUrl": "//upload.jianshu.io/collections/images/283250/%E6%BC%AB%E7%94%BB%E4%B8%93%E9%A2%98.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+  }],
+  "articleList": [{
+    "id": 1,
+    "title": "有小电锅饿不死系列之小饭团",
+    "desc": "周日，一周中最美好的一天，睡到自然醒，窗外的阳光洒在脸上，又是一个好天气…… 等等，好像肚子有点响，人生一等大事还是要先填饱肚子，不然哪有力气来...",
+    "author":"玫瑰爱的小狐狸",
+    "imgUrl": "//upload-images.jianshu.io/upload_images/10322245-96294db7a2de3a02.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+  },{
+    "id": 2,
+    "title": "《三生三世浮生若梦》第五章",
+    "desc": "第五章 上朝 次日一早，凤九迷迷糊糊的活动了一下酸痛的身体，瞬间感觉浑身上下就像是被十万匹马踩过一样，惹的她“嘶”地一声痛呼，灵...",
+    "author":"星空中的风信子",
+    "imgUrl": "//upload-images.jianshu.io/upload_images/13475049-c1b52b87d9139378.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+  }],
+  "hotList": [{
+    "id": 1,
+    "imgUrl": "/images/7yue.png",
+    "desc": "7月热榜"
+  },{
+    "id": 2,
+    "imgUrl": "/images/30yue.png",
+    "desc": "30日热榜"
+  },{
+    "id": 3,
+    "imgUrl": "/images/youxuan.png",
+    "desc": "优选连载"
+  },{
+    "id": 4,
+    "imgUrl": "/images/copyright.png",
+    "desc": "简书版权"
+  },{
+    "id": 5,
+    "imgUrl": "/images/xuetang.png",
+    "desc": "学堂"
+  }],
+  "recommendList": [{
+    "id": 1,
+    "imgUrl": "//upload.jianshu.io/users/upload_avatars/8723996/5b2500d0-9768-4d3e-831c-47526ec444ed.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+    "author": "旸晓坤",
+    "fontount": "写了112.6k字 · 320喜欢"
+  },{
+    "id": 2,
+    "imgUrl": "//upload.jianshu.io/users/upload_avatars/3627484/eb973bb9-37ba-4d07-acec-850c0a66d1bb.png?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+    "author": "简书大学堂",
+    "fontount": "写了1253.7k字 · 23.6k喜欢"
+  },{
+    "id": 3,
+    "imgUrl": "//upload.jianshu.io/users/upload_avatars/4287007/b7b9c810-069e-4385-aec7-1823e94ee43d.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+    "author": "惠宗聊绘画",
+    "fontount": "写了162.5k字 · 1.9k喜欢"
+  },{
+    "id": 4,
+    "imgUrl": "//upload.jianshu.io/users/upload_avatars/5796592/73837104-47e5-4fe9-a5be-054bd50b06f7.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+    "author": "乔汉童",
+    "fontount": "写了504.8k字 · 1.5k喜欢"
+  },{
+    "id": 5,
+    "imgUrl": "//upload.jianshu.io/users/upload_avatars/3884693/b425c707-d998-46a6-98b1-9b1e241513c3.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+    "author": "王四巷",
+    "fontount": "写了438.4k字 · 1.7k喜欢"
+  }],
+  "swiperImg": [{
+    "id": 1,
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4514/bf753d6adbb8da040052b46492f41432d9eb1a0f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+  },{
+    "id": 2,
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4502/25b524b6d1d21c508b7ca6a6a0a77ead48eed1b6.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+  },{
+    "id": 3,
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4510/7398b3b419943278df10ce09a5358575f19e2178.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+  },{
+    "id": 4,
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4486/240ebd0212e4fce11577abbe3169c9345637ee58.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+  },{
+    "id": 5,
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4520/83fadd2df821d52fb277287ac4a189e8d21b7b65.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+  }]
+ }
+}

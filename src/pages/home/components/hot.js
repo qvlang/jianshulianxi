@@ -1,12 +1,12 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import { HotList } from '../style';
+import { HotWrapper, HotList } from '../style';
 
 class Hot extends PureComponent {
   render () {
     const { list } =this.props;
     return (
-      <div>
+      <HotWrapper>
        {
         list.map((item)=> {
           return (
@@ -16,7 +16,7 @@ class Hot extends PureComponent {
           )
         })
        }
-      </div>
+      </HotWrapper>
     )
   }
 }

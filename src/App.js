@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Detail from './pages/detail';
 import Login from './pages/login';
 import Write from './pages/write';
+import Signup from './pages/signup';
 import store from './store';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
             <Header />
             <Route path="/" exact component={Home} ></Route>
             <Route path="/login" exact component={Login} ></Route>
+            <Route path="/signup" exact component={Signup} ></Route>
             <Route path="/detail/:id" exact component={Detail}></Route>
             <Route path="/write" exact component={Write}></Route>
           </div>

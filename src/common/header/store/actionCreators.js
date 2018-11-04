@@ -35,7 +35,7 @@ export const getList = () => {
       const data = res.data;
       dispatch(searchItem(data.data))
     }).catch((err)=> {
-      console.log("err");
+      console.log("err"+err.message);
     })
   }
 }

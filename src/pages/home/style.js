@@ -102,9 +102,14 @@ export const LoadMore = style.div`
   border-radius: 20px;
   cursor: pointer;
 `;
+export const HotWrapper = style.div`
+  width: 100%;
+  padding-bottom: 99%;
+`;
 export const HotList = style.div`
   width: 100%;
   min-height: 50px;
+  float:left;
   margin-top: -8px;
   padding-top: 4px;
   margin-bottom: 6px;
@@ -184,6 +189,7 @@ export const SwiperWrap = style.div`
   position: relative;
   .container{
     position: absolute;
+    display: flex;
     top:0;
     left:0;
     img{

@@ -72,19 +72,25 @@
   }],
   "swiperImg": [{
     "id": 1,
-    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4514/bf753d6adbb8da040052b46492f41432d9eb1a0f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4520/83fadd2df821d52fb277287ac4a189e8d21b7b65.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
   },{
     "id": 2,
-    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4502/25b524b6d1d21c508b7ca6a6a0a77ead48eed1b6.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4514/bf753d6adbb8da040052b46492f41432d9eb1a0f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
   },{
     "id": 3,
-    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4510/7398b3b419943278df10ce09a5358575f19e2178.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4502/25b524b6d1d21c508b7ca6a6a0a77ead48eed1b6.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
   },{
     "id": 4,
-    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4486/240ebd0212e4fce11577abbe3169c9345637ee58.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4510/7398b3b419943278df10ce09a5358575f19e2178.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
   },{
     "id": 5,
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4486/240ebd0212e4fce11577abbe3169c9345637ee58.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+  },{
+    "id": 6,
     "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4520/83fadd2df821d52fb277287ac4a189e8d21b7b65.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+  },{
+    "id": 7,
+    "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4514/bf753d6adbb8da040052b46492f41432d9eb1a0f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
   }]
  }
 }

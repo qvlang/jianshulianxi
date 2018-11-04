@@ -5,27 +5,67 @@ import { SwiperWrap, LeftArrow, RightArrow, SpanWrap } from '../style';
 class Swiper extends PureComponent {
   constructor (props) {
     super(props);
-    this.autoSlide = this.autoSlide.bind(this);
+    //绑定函数中this指向
+      this.autoSlide = this.autoSlide.bind(this);
+      this.handlePre = this.handlePre.bind(this);
+      this.handleNext = this.handleNext.bind(this);
+      this.handleLeave = this.handleLeave.bind(this);
   }
+    //将timer绑在window下 其他函数也可访问 但必须在页面卸载是清空
+
   autoSlide (div) {
     if (div) {
-      div.style.left = 0 + "px";
-      setInterval(()=>{
-        const left = div.style.left.replace(/[^0-9]/ig,"");
-        const distance = parseInt(left, 10);
-        if(Math.abs(distance) >= 625 * 4){
-          div.style.left = 0;
-        }else {
-          div.style.left =  (-(distance + 625)) + "px"; 
-        }
-      },2000)
+      div.style.left = -625+ "px";
+      window.timer = setInterval(()=>{
+          this.animate(div,-625);
+        },5000);
     }
+  };
+  animate(div, offset) {
+    let speed = offset / 25;
+    let newLeft = parseInt(div.style.left) + offset;
+    function go() {
+      if ((speed >0 && parseInt(div.style.left) < newLeft) || (speed < 0 && parseInt(div.style.left) > newLeft)) {
+        div.style.left = parseInt(div.style.left) + speed + "px";
+        setTimeout(go,10);
+      }else{
+         div.style.left = newLeft + "px";
+        if (newLeft > -625) {
+          div.style.left = -3125 + "px";
+        }
+        if (newLeft < -3125) {
+          div.style.left = -625 + "px";
+        }
+      }
+    }
+    go();
+  };
+  //这样就能把函数内的this绑定成当前class
+  handleEnter = () =>{
+    clearInterval(window.timer);
+  };
+  handleLeave (div) {
+    window.timer = setInterval(()=>{
+          this.animate(div,-625);
+        },5000);
+  };
+  handlePre (div) {
+    this.animate(div, 625);
+  };
+  handleNext (div) {
+    this.animate(div, -625);
+  };
+  //当组件要被卸载的时候去掉timer
+  componentWillUnmount () {
+    window.timer = null;
   };
   render () {
     const { list } = this.props;
     return (
         <SwiperWrap className="clearfix">
-        <div className="container" ref={(div)=> this.div = div}>
+        <div className="container" ref={(div)=> this.div = div} 
+          onMouseEnter={this.handleEnter} onMouseLeave={()=>this.handleLeave(this.div)}
+        >
           {
             this.autoSlide(this.div)
           }
@@ -37,8 +77,8 @@ class Swiper extends PureComponent {
              })
            }
           </div>
-          <LeftArrow><i className="iconfont">&#xe629;</i></LeftArrow>
-          <RightArrow><i className="iconfont">&#xe604;</i></RightArrow>
+          <LeftArrow onClick={()=>this.handlePre(this.div)}><i className="iconfont">&#xe629;</i></LeftArrow>
+          <RightArrow onClick={()=>this.handleNext(this.div)}><i className="iconfont">&#xe604;</i></RightArrow>
           <SpanWrap>
             <span></span>
             <span></span>

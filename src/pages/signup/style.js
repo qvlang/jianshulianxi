@@ -10,7 +10,6 @@ export const LoginWrapper = style.div`
   bottom: 0;
   background: #eee;
 `;
-
 export const LoginTitle = style.div`
   width: 280px;
   margin: 0 auto 40px;
@@ -41,7 +40,6 @@ export const Input = style.input`
   display: block;
   width: 280px;
   height: 50px;
-  outline: none;
   line-height: 50px;
   margin: 0 auto;
   padding: 0 10px;
@@ -51,7 +49,7 @@ export const Button = style.div`
   width: 304px;
   height: 50px;
   line-height: 50px;
-  background: #3194d0;
+  background: #42c02e;
   border-radius: 25px;
   margin: 30px auto;
   text-align: center;

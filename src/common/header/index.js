@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -22,7 +22,7 @@ import {
 } from './style';
 
 
-class Header extends Component {
+class Header extends PureComponent {
   render() {
     const { isFocus, list, isLogin, handleFocus, handleBlur, logout } = this.props; 
     return (
@@ -60,7 +60,9 @@ class Header extends Component {
               写文章
             </Button>
           </Link>
-          <Button className="reg">注册</Button>
+          <Link to="/signup">
+            <Button className="reg">注册</Button>
+          </Link>
         </Addition>
       </HeaderWrapper>
     );

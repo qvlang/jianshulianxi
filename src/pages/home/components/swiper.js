@@ -40,7 +40,7 @@ class Swiper extends PureComponent {
     }
     go();
   };
-  //这样就能把函数内的this绑定成当前class
+  //箭头函数内的this绑定成当前class
   handleEnter = () =>{
     clearInterval(window.timer);
   };
